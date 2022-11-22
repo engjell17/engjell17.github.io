@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Lexend Deca", sans-serif;
+}
+h2 {
+  font-family: "Big Shoulders Display", cursive;
+  font-weight: 700;
+  font-size: 6rem;
+  color: rgb(255, 255, 255);
+}
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 1rem;
+}
+section {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-direction: column;
+  color: hsla(0, 0%, 100%, 0.75);
+  height: 90vh;
+  padding: 2rem;
+}
+img {
+  width: 6rem;
+}
+p {
+  font-size: 1.1rem;
+  line-height: 2rem;
+}
+a {
+  text-decoration: none;
+  background-color: white;
+  color: hsl(31, 77%, 52%);
+  padding: 1rem 2rem;
+  border-radius: 2rem;
+  border: 1px solid white;
+}
+.suvs a {
+  color: hsl(184, 100%, 22%);
+}
+.luxury a {
+  color: hsl(179, 100%, 13%);
+}
+a:hover {
+  background-color: transparent;
+  color: white;
+  cursor: pointer;
+}
+.sedans {
+  background-color: hsl(31, 77%, 52%);
+  border-radius: 1rem 1rem 0 0;
+}
+.suvs {
+  background-color: hsl(184, 100%, 22%);
+}
+.luxury {
+  background-color: hsl(179, 100%, 13%);
+  border-radius: 0 0 1rem 1rem;
+}
+@media (min-width: 1000px) {
+  main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    margin: 2rem 7rem;
+  }
+  .sedans {
+    border-radius: 1rem 0rem 0 1rem;
+  }
+  .luxury {
+    border-radius: 0 1rem 1rem 0rem;
+  }
+}
