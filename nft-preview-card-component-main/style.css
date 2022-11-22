@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap");
+* {
+  font-family: "Outfit", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: white;
+}
+body {
+  background-color: rgb(12, 23, 41);
+}
+
+section {
+  width: 30%;
+  background-color: rgb(21, 39, 63);
+  margin: 3rem auto;
+  padding: 2rem;
+  border-radius: 1rem;
+  box-shadow: 0rem 0rem 0rem 2rem rgb(12, 21, 37);
+}
+.figure {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  border-radius: 0.5rem;
+}
+h1 {
+  margin: 1rem;
+  font-weight: 600;
+}
+p {
+  margin: 1rem;
+  color: rgb(118, 141, 172);
+  font-weight: 300;
+}
+.eth {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: 400;
+}
+.number {
+  color: rgb(0, 255, 248);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 30%;
+  font-weight: 400;
+}
+.days {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 30%;
+  font-weight: 400;
+}
+footer {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.avatar {
+  border: 1px solid white;
+  border-radius: 50%;
+  width: 10%;
+}
+hr {
+  background-color: rgb(138, 174, 217);
+  border: 0.5px solid rgb(138, 174, 217);
+}
