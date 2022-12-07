@@ -11,6 +11,7 @@ body {
   grid-template-rows: 1fr 1fr;
   gap: 1rem;
   margin: 2rem;
+  background-color: white;
 }
 h1 {
   font-weight: 600;
@@ -39,10 +40,14 @@ h1 {
   grid-column-start: 2;
   grid-column-end: 4;
 }
+.jeanette {
+  background-color: hsl(0, 0%, 95%);
+}
 .daniel {
   background-color: rgb(115, 63, 200);
   background-image: url(../testimonials-grid-section-main/images/bg-pattern-quotation.svg);
   background-repeat: no-repeat;
+  background-position: 19rem 0.5rem;
   color: white;
   grid-column-start: 1;
   grid-column-end: 3;
@@ -52,6 +57,7 @@ h1 {
   grid-row-end: 3;
   grid-column-start: 4;
   grid-column-end: 5;
+  background-color: hsl(0, 0%, 95%);
 }
 .img {
   border-radius: 50%;
